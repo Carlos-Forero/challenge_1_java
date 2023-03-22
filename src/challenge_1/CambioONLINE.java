@@ -62,6 +62,7 @@ public class CambioONLINE extends Cambio{
 
 		    } catch (Exception e) {
 		      e.printStackTrace();
+		      JOptionPane.showMessageDialog(null, "Se ha producido un error: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
 		    }
 		    }
 		    
